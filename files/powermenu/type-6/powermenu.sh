@@ -15,8 +15,6 @@ theme='style-1'
 
 # CMDs
 lastlogin="`last $USER | head -n1 | tr -s ' ' | cut -d' ' -f5,6,7`"
-uptime="`uptime -p | sed -e 's/up //g'`"
-host=`hostname`
 
 # Options
 hibernate=''
@@ -27,6 +25,8 @@ suspend=''
 logout=''
 yes=''
 no=''
+
+source ~/.config/rofi/powermenu/scripts/functions.sh
 
 # Rofi CMD
 rofi_cmd() {
@@ -102,11 +102,7 @@ case ${chosen} in
 		run_cmd --hibernate
         ;;
     $lock)
-		if [[ -x '/usr/bin/betterlockscreen' ]]; then
-			betterlockscreen -l
-		elif [[ -x '/usr/bin/i3lock' ]]; then
-			i3lock
-		fi
+		lock_screen
         ;;
     $suspend)
 		run_cmd --suspend

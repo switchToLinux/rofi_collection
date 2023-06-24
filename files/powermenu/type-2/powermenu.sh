@@ -14,10 +14,6 @@
 dir="$HOME/.config/rofi/powermenu/type-2"
 theme='style-1'
 
-# CMDs
-uptime="`uptime -p | sed -e 's/up //g'`"
-host=`hostname`
-
 # Options
 shutdown=''
 reboot=''
@@ -26,6 +22,8 @@ suspend=''
 logout=''
 yes=''
 no=''
+
+source ~/.config/rofi/powermenu/scripts/functions.sh
 
 # Rofi CMD
 rofi_cmd() {
@@ -96,11 +94,7 @@ case ${chosen} in
 		run_cmd --reboot
         ;;
     $lock)
-		if [[ -x '/usr/bin/betterlockscreen' ]]; then
-			betterlockscreen -l
-		elif [[ -x '/usr/bin/i3lock' ]]; then
-			i3lock
-		fi
+		lock_screen
         ;;
     $suspend)
 		run_cmd --suspend
