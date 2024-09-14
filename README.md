@@ -109,7 +109,7 @@ $ ./setup.sh
 </p>
 
 <p align="center">
-  <!-- sponsors --><a href="https://github.com/Cir-0"><img src="https://github.com/Cir-0.png" width="60px" alt="David N" /></a><a href="https://github.com/pedrosrtavares"><img src="https://github.com/pedrosrtavares.png" width="60px" alt="Pedro Tavares" /></a><a href="https://github.com/flaxrora"><img src="https://github.com/flaxrora.png" width="60px" alt="flaxrora" /></a><a href="https://github.com/jeandutoit"><img src="https://github.com/jeandutoit.png" width="60px" alt="" /></a><a href="https://github.com/machist"><img src="https://github.com/machist.png" width="60px" alt="" /></a><!-- sponsors -->
+  <!-- sponsors --><a href="https://github.com/davidtoska"><img src="https:&#x2F;&#x2F;avatars.githubusercontent.com&#x2F;u&#x2F;15263867?u&#x3D;7f45e973d008c1c9fc573554a95efac83751e726&amp;v&#x3D;4" width="60px" alt="David Toska" /></a><a href="https://github.com/kkkutup"><img src="https:&#x2F;&#x2F;avatars.githubusercontent.com&#x2F;u&#x2F;142684677?v&#x3D;4" width="60px" alt="" /></a><!-- sponsors -->
 </p>
 
 ---
