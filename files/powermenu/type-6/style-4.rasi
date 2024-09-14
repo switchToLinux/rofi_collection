@@ -33,7 +33,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       800px;
+    width:                       24%;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -55,7 +55,7 @@ mainbox {
 /*****----- Imagebox -----*****/
 imagebox {
     expand:                      false;
-    width:                       640px;
+    width:                       15%;
     spacing:                     0px;
     padding:                     100px;
     background-color:            transparent;

@@ -15,9 +15,9 @@ configuration {
 /*****----- Global Properties -----*****/
 * {
     /* Resolution : 1920x1080 */
-    mainbox-spacing:             50px;
-    mainbox-margin:              50px;
-    message-margin:              0px 300px;
+    mainbox-spacing:             2%;
+    mainbox-margin:              10%;
+    message-margin:              0% 10%;
     message-padding:             12px;
     message-border-radius:       12px;
     listview-spacing:            25px;
@@ -28,7 +28,7 @@ configuration {
     textbox-font:                "Iosevka Nerd Font 12";
     element-text-font:           "feather 48";
 
-    background-window:           black/20%;
+    background-window:           black/60%;
     background-normal:           white/5%;
     background-selected:         white/15%;
     foreground-normal:           white;
@@ -41,7 +41,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       1000px;
+    width:                       60%;
     border-radius:               50px;
     cursor:                      "default";
     background-color:            var(background-window);

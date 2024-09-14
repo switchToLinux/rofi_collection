@@ -33,7 +33,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       800px;
+    width:                       25%;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -55,9 +55,9 @@ mainbox {
 /*****----- Imagebox -----*****/
 imagebox {
     expand:                      false;
-    width:                       500px;
+    width:                       15%;
     spacing:                     0px;
-    padding:                     100px;
+    padding:                     0px;
     background-color:            transparent;
     background-image:            url("~/.config/rofi/images/j.jpg", height);
     children:                    [ "inputbar", "dummy", "message" ];
@@ -120,8 +120,8 @@ listview {
     fixed-height:                true;
     fixed-columns:               true;
     
-    spacing:                     30px;
-    margin:                      30px;
+    spacing:                     0px;
+    margin:                      0px;
     background-color:            transparent;
     cursor:                      "default";
 }

@@ -19,13 +19,13 @@ configuration {
 * {
     /* Resolution : 1920x1080 */
     box-spacing:                 50px;
-    box-margin:                  300px 250px;
+    box-margin:                  30.5% 20%;
     box-padding:                 50px;
-    message-margin:              0px 400px;
+    message-margin:              0% 10%;
     inputbar-spacing:            0px;
     list-spacing:                0px;
     general-padding:             20px;
-    element-padding:             90px 10px;
+    element-padding:             10% 0.5%;
     element-radius:              80px;
     general-radius:              100%;
     element-font:                "feather 48";

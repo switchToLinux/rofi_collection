@@ -15,9 +15,9 @@ configuration {
 /*****----- Global Properties -----*****/
 * {
     /* Resolution : 1920x1080 */
-    mainbox-spacing:             100px;
-    mainbox-margin:              150px 400px;
-    message-margin:              0px 350px;
+    mainbox-spacing:             2%;
+    mainbox-margin:              10% 20%;
+    message-margin:              0px 10%;
     message-padding:             20px;
     message-border-radius:       100%;
     listview-spacing:            50px;
@@ -50,9 +50,9 @@ configuration {
     gradient-19:                 linear-gradient(0, #03001e, #7303c0, #ec38bc, #fdeff9);
     gradient-20:                 linear-gradient(0, #780206, #061161);
     
-    background-window:           var(gradient-19);
+    background-window:           var(gradient-6);
     background-normal:           white/10%;
-    background-selected:         white/20%;
+    background-selected:         white/40%;
     foreground-normal:           white;
     foreground-selected:         white;
 }
