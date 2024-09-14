@@ -37,7 +37,7 @@ window {
     location:                    west;
     anchor:                      west;
     fullscreen:                  false;
-    width:                       500px;
+    width:                       15%;
     height:                      100%;
     x-offset:                    0px;
     y-offset:                    0px;

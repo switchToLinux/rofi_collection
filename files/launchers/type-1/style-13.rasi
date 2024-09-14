@@ -48,8 +48,8 @@ configuration {
     alternate-active-background: var(active);
     alternate-active-foreground: var(background);
 
-    /* For Screens with 1920x1080 resolution */
-    screen-margin:               310px 500px;
+    /* For Screens with 3840x2160 resolution */
+    screen-margin:               15%;
     box-spacing:                 20px;
     element-padding:             15px;
     element-radius:              8px;

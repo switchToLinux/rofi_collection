@@ -37,7 +37,8 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       1000px;
+    width:                       50%;
+    height:                      50%;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -51,7 +52,8 @@ window {
 /*****----- Main Box -----*****/
 mainbox {
     enabled:                     true;
-    spacing:                     0px;
+    spacing:                     20px;
+    padding:                     10px;
     background-color:            transparent;
     orientation:                 vertical;
     children:                    [ "inputbar", "listbox" ];
@@ -69,7 +71,7 @@ listbox {
 inputbar {
     enabled:                     true;
     spacing:                     10px;
-    padding:                     100px 60px;
+    padding:                     20px;
     background-color:            transparent;
     background-image:            url("~/.config/rofi/images/f.png", width);
     text-color:                  @foreground;
@@ -88,7 +90,7 @@ textbox-prompt-colon {
 entry {
     enabled:                     true;
     expand:                      false;
-    width:                       300px;
+    width:                       10%;
     padding:                     12px 16px;
     border-radius:               100%;
     background-color:            @background-alt;
@@ -110,7 +112,7 @@ mode-switcher{
     text-color:                  @foreground;
 }
 button {
-    width:                       80px;
+    width:                       4%;
     padding:                     12px;
     border-radius:               100%;
     background-color:            @background-alt;

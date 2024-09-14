@@ -49,7 +49,7 @@ configuration {
     alternate-active-foreground: var(background);
 
     /* For Screens with 1920x1080 resolution */
-    screen-margin:               275px 400px;
+    screen-margin:               10%;
     box-spacing:                 20px;
     list-padding:                8px;
     element-padding:             15px;
@@ -297,7 +297,7 @@ mode-switcher{
 }
 button {
     padding:                     @element-padding;
-    width:                       125px;
+    width:                       200px;
     border:                      0px solid;
     border-radius:               @element-radius;
     border-color:                @border-colour;

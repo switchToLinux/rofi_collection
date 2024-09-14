@@ -11,13 +11,13 @@
 configuration {
 	modi:                       "drun";
     show-icons:                 false;
-    display-drun:               "Applications";
+    display-drun:               "Apps";
 	drun-display-format:        ">>      {name} [<span weight='light' size='small'><i>({generic})</i></span>]";
 }
 
 /*****----- Global Properties -----*****/
 * {
-    font:                        "Grape Nuts 14";
+    font: "Iosevka Nerd Font 10";
 }
 
 /*****----- Main Window -----*****/
@@ -27,7 +27,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       860px;
+    width:                       20%;
     x-offset:                    0px;
     y-offset:                    0px;
 

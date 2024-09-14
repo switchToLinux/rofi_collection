@@ -287,7 +287,7 @@ mode-switcher{
 }
 button {
     padding:                     @element-padding;
-    width:                       125px;
+    width:                       200px;
     border:                      0px solid;
     border-radius:               @element-radius;
     border-color:                @border-colour;
